@@ -1,0 +1,22 @@
+The programs Train and Test are what you need to run
+
+For train you have to add the following parameters
+	Hypotheses_Output_File_path
+	Train_File_path
+	Learning Type (ad or dt)
+	Limit (optional)
+
+If you do not put in the parameters, the program will ask you for user input
+
+For testing you have to add the following parameters
+	Hypotheses_File_path
+	Test_File_path 	
+
+If you do not put in the parameters, the program will ask you for user input
+
+Training files are given in the Train_Files folder
+Test files are provided in the Test_Files folder
+
+There are two pregenerated hypotheses for your use as well:
+adaboost	(Adaboosted hypotheses)
+wd		(Decision Tree)
